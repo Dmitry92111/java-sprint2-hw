@@ -71,7 +71,7 @@ public class StepTracker {
         monthData.printDaysAndStepsFromMonth();// вывод общей статистики по дням
         System.out.println("Сумма шагов за месяц: " + sumSteps);// вывод суммы шагов за месяц
         System.out.println("Максимальное пройденное количество шагов в текущем месяце: " + monthData.maxSteps());// вывод максимального пройденного количества шагов за месяц
-        System.out.println("Среднее количество шагов в текущем месяце месяц: " + averageStepsFromMonth);// вывод среднего пройденного количества шагов за месяц
+        System.out.println("Среднее количество шагов в текущем месяце: " + averageStepsFromMonth);// вывод среднего пройденного количества шагов за месяц
         System.out.println("Пройдено в километрах: " + converter.convertToKm(sumSteps));// вывод пройденной за месяц дистанции в километрах
         System.out.println("Сожжено калорий: " + converter.convertStepsToKilocalories(sumSteps));// вывод количества сожжённых килокалорий за месяц
         System.out.println("Ваша лучшая серия за месяц: " + monthData.bestSeries(goalByStepsPerDay));// вывод лучшей серии
