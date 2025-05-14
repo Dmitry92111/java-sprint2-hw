@@ -1,0 +1,43 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Java build output
+/out/
+/target/
+/bin/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Maven
+/logs/
+/dependency-reduced-pom.xml
+buildNumber.properties
+release.properties
+
+# Gradle
+.gradle/
+/build/
+
+# Temporary files
+*.swp
+*.swo
+
+# IDE indexing
+/.idea/workspace.xml
+/.idea/usage.statistics.xml
+/.idea/assetWizardSettings.xml
+/.idea/dictionaries/
+/.idea/modules.xml
+/.idea/inspectionProfiles/
+
+# VSCode (если вдруг откроешь в VSCode)
+.vscode/
