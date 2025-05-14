@@ -1,6 +1,7 @@
 # IntelliJ IDEA
 .idea/
 *.iml
+*.xml
 
 # Java build output
 /out/
@@ -41,3 +42,4 @@ release.properties
 
 # VSCode (если вдруг откроешь в VSCode)
 .vscode/
+/.idea/
